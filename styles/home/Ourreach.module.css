@@ -1,0 +1,63 @@
+.Ourreach{
+    font-family: 'Poppins';
+    text-align: center;
+    margin: 2.7vh 0;
+    margin-bottom: 100px;
+}
+.Ourreach_head{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 80px;
+  color: #089ee8;
+}
+
+.reach_holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 3vh 0;
+}
+
+.reaches{
+    flex-basis: 235px;
+    height: 100px;
+    flex-grow: 0.1;
+    margin: 2vh 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.4rem;
+    border-radius: 15px;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+}
+
+.reaches img{
+    width: 30%;
+    height: 70%;
+}
+
+.reach_card_p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+
+    font-family: poppins;
+    font-style: normal;
+    letter-spacing: .03em;
+}
+
+.reach_card_head{
+    font-family: poppins;
+    font-style: normal;
+    letter-spacing: .03em;
+    font-weight: 600;
+    font-size: 24px;
+    /* line-height: 33px; */
+    line-height: 0px;
+}
+
+
+.reach_data{
+    height: 100%;
+}

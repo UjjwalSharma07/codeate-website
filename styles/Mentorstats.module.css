@@ -1,0 +1,71 @@
+.Mentorstats {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(136deg, #56a8d0, #00b7d5, #089ee8);
+    padding: 2rem 0;
+}
+
+.Mstat {
+    background-color: aliceblue;
+    height: 100%;
+    padding: 0.4rem;
+    line-height: 24px;
+}
+
+.m__stat__block{
+text-align: center;
+
+flex-basis: 250px;
+flex-grow: 0.05;
+border-radius: 20px;
+display:flex;
+align-items: center;
+justify-content: center;
+padding: 1rem ;
+}
+
+.Mstat Image{
+    width: 70px;
+    height: 70px;
+    margin: 0.4rem;
+    display:flex;
+    border-radius: 20px;
+}
+
+.MSdata {
+    height: 4rem;
+    width: 8rem;
+    font-size: 2.5rem;
+    font-weight: 450;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: solid 0.8px rgb(8, 158, 232, 0.8);
+}
+
+.MSmetadata {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.Stats__holder{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: items-center;
+    justify-content:space-around;
+    padding: 0.8rem;
+    grid-gap:1rem;
+    gap:1rem;
+}
+
+@media only screen and (max-width: 790px) {
+    .Mstat {
+        margin-bottom: 1rem
+    }
+}
+
+.Stats__head{
+    color:white;
+    text-align:center;
+    font-size: 3rem;
+    font-weight:600;
+    margin:0.8rem 0;
+} 

@@ -1,0 +1,64 @@
+.Projectpage{
+    font-family: 'Poppins';
+    width: 100vw;
+    height: 100%;
+}
+
+.proj_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 5vh  2vw;
+    background-color: rgb(8, 158, 232);
+}
+
+.proj_intro{
+    color: white;
+    flex-basis: 270px;
+    flex-grow: 1;
+    padding: 0 3vw;
+}
+
+.proj_page_heading{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.proj_face{
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.proj_face img{
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.Projects_holder{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(270px,35vw));
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    gap: 2rem;
+}
+
+.Category_holder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(278px,400px));
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 40px;
+}
+
+.Categories h1{
+    text-align: center;
+    color: #089ee8;
+    font-weight: 500;
+    font-size: 2.3rem;
+    margin: 6vh 0;
+}

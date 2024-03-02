@@ -1,0 +1,150 @@
+.home__hero_section {
+  color: black;
+  padding: 6rem 0;
+  font-family: "Poppins", sans-serif;
+  /* background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./home2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto; */
+}
+
+.home__hero_row {
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.col {
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 10%;
+  flex: 1;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+
+.home__hero_text_wrapper {
+  max-width: 540px;
+  padding-top: 8rem;
+  padding-bottom: 30px;
+
+  align-items: center;
+}
+
+.top_line {
+  color: black;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.heading {
+  margin-bottom: 24px;
+  font-size: 3rem;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #089ee8;
+}
+
+.dark {
+  color: #1c2237;
+}
+
+.darkBg {
+  background-color: white;
+}
+
+.home__hero_subtitle {
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.75;
+  text-align: start;
+  padding: 10px 0;
+  color: white;
+}
+
+.home__hero_img_wrapper {
+  max-width: 555px;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+}
+
+.home__hero_img_wrapper ::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  top: 50%;
+  left: 20%;
+  border: solid 50px rgb(0, 119, 181, 0.5);
+  text-align: center;
+}
+
+.home__hero_img {
+  /* max-width: 100%; */
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 10px;
+  padding-right: 0;
+  width: 90%;
+}
+
+@media screen and (max-width: 790px) {
+  .home__hero_section {    
+    padding: 1rem 0;
+  }
+  
+  .home__hero_text_wrapper {
+    padding-bottom: 65px;
+  }
+  .container {
+    padding: 0 10px;
+  }
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .home__hero_img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .col {
+    padding-left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__hero_text_wrapper {
+    padding-bottom: 65px;
+  }
+  .col {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .heading {
+    font-size: 2.05rem;
+    font-weight: 700;
+  }
+}

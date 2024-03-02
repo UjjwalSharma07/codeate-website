@@ -1,0 +1,98 @@
+.Our_community{
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+}
+/* .builttop{
+    position: relative;
+}
+.builttop::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    top: 50%;
+    left: 21%;
+    border: solid 50px rgb(0, 119, 181 , 0.5);
+    transform: rotateZ(45deg);
+} */
+/* .builttop::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    top: -10%;
+    right: 20%;
+    border: solid 50px rgb(0, 119, 181 , 0.5);
+} */
+.o_community{
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 2rem 0;
+    padding: 1.1rem;
+    color:  #fff;
+}
+
+.o_comm_sponsor_holder{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem 2rem;
+}
+
+.o_s_card{
+    /* flex-basis: 35%; */
+    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.o_s_card p{
+    font-size: 1.2rem;
+}
+
+.card_conte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 0.1;
+}
+
+.o_s_card a{
+    width: 100%;
+    height: 100%;
+}
+.o_s_card img{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.whatsapp{
+    background-color: #25D366;
+}
+.instagram{ 
+    background-color: #5B51D8;
+}
+.linkedin{
+    background: #0077B5;
+}
+.discord{
+    background-color: #738ADB;
+}

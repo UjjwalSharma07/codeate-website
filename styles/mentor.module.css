@@ -1,0 +1,215 @@
+.wrap{
+    height:1400px;
+}
+
+.head1 h1{
+    left:400px;
+    position:absolute;
+    font-size:50px;
+    margin-top: 50px;
+}
+
+.back3 img{
+    height:500px;
+    width:500px;
+    position:absolute;
+    margin-top:300px;
+    left:100px;
+}
+
+.back2{
+    height:450px;
+    width:450px;
+    position:absolute;
+    left:150px;
+    margin-top:150px;
+}
+
+.ambassador{
+    display:flex;
+    flex-direction: column;
+    padding:1rem 1.5rem;
+    position: absolute;
+    right:100px;
+    margin-top:150px;
+
+}
+
+.wrap{
+    display:flex;
+    flex-direction: row;
+}
+
+/* .ambassador input{
+    padding:7px;
+    width:600px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+} */
+
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.container input{
+    padding:7px;
+    width:600px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+    background-color: white;
+    color:black;
+}
+
+.row input{
+    padding:7px;
+    width:295px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+    background-color: white;
+}
+
+.ambassador select{
+    padding:7px;
+    width:600px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+    background-color: white;
+    color:black;
+}
+
+.ambassador textarea{
+    padding:7px;
+    width:600px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+    background-color: white;
+    color:black;
+
+}
+
+/* .head1{ 
+    position:absolute;
+    text-align:center;
+    background-color: aqua;
+    margin:auto;
+} */
+
+#hea23{height:50px;
+    width:800px;
+    margin:auto;
+
+    padding:50px;
+    font-size:55px;}
+
+
+.row1 input{
+    padding:7px;
+    width:220px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+    background-color: white;
+    color:black;
+}    
+
+.last h5{
+    font-weight: bold;
+}
+
+.btn{
+    padding:10px;
+    border-radius: 8px;
+    font-size:20px;
+    background-color: rgb(27, 92, 176);
+    color:white;
+    font-weight: bold;
+
+}
+.amb1{
+    display:flex;
+    flex-direction: column;
+    padding:1rem 1.5rem;
+    position: absolute;
+    left:100px;
+    margin-top:600px;
+
+}
+
+
+.amb1 input{
+    padding:7px;
+    width:600px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+    background-color: white;
+    color:black;
+}
+
+.amb1 select{
+    padding:7px;
+    width:600px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+    background-color: white;
+    color:black;
+}
+
+.amb1 textarea{
+    padding:7px;
+    width:600px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+    background-color: white;
+    color:black;
+}
+
+
+/* .rad1 input{
+    padding:7px;
+    width:600px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+}
+
+.rad1 label{
+    padding:7px;
+    width:600px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+} */
+
+.rad2 input{
+    padding:7px;
+    width:60px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+    
+}
+
+.rad2 label{
+    padding:7px;
+    width:600px;
+    margin:5px;
+    border-radius:5px;
+    font-size:20px;
+}
+
+.rad2{
+    width:20px;
+}
+
+.rad1 input{
+    background-color: black;
+    color:white;
+}

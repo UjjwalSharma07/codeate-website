@@ -1,0 +1,200 @@
+/* -------------------------------------------------------- CSS --------------------------------------------------------------------*/
+
+.milestones{
+    height: fit-content;
+    background: #E5E5E5;
+
+    padding: 10px;
+}
+
+.heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 69px;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    background: linear-gradient(178.18deg, #1978A5 -13.56%, #485DAA 87.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cline{
+    margin-top: 25px;
+    position: relative;
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    text-align: center;
+    margin: auto auto;
+}
+
+.end{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.608696px;
+    color: #333333;
+    padding-bottom: 50px;
+}
+
+.background{
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.line {
+    position: absolute;
+    height: 650px;
+    left: 50%;
+    
+    width: 7px;
+    background: linear-gradient(178.18deg, #1978A5 -13.56%, #281AC8 158.3%);
+}
+
+.block{
+    width: 50%;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 30px;
+    color: #070707;
+    width: 100%;
+}
+
+.left{
+    display: flex;
+}
+.left .text{
+    text-align: right;
+    padding-right: 50px;
+}
+
+.right{
+    margin-left: 50%;
+    width: 50%;
+    display: flex;
+}
+.right .text{
+    padding-left: 50px;
+}
+
+.shape{
+    position: absolute;
+    background: linear-gradient(178.18deg, #FD749B -13.56%, #281AC8 158.3%);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    align-items: center;
+}
+.left .shape{
+    left: 49.5%;
+}
+.right .shape{
+    left: 49.5%;
+}
+
+/* -------------------------------------------------------- RESPONSIVE -----------------------------------------------------------------*/
+
+@media  screen and (max-width: 1200px) {
+    .heading{
+        font-size: 50px;
+    }
+    .text{
+        font-size: 25px;
+    }
+}
+@media  screen and (max-width: 1000px) {
+    .heading{
+        font-size: 45px;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .block{
+        margin-bottom: 80px;
+    }
+    .line{
+        height: 600px;
+    }
+    .left .shape{
+        left: 49.2%;
+    }
+    .right .shape{
+        left: 49.2%;
+    }
+}
+@media  screen and (max-width: 700px) {
+    .heading{
+        font-size: 40px;
+    }
+    .text{
+        font-size: 15px;
+    }
+    .block{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .line{
+        height: 340px;
+    }
+    .shape{
+        height: 15px;
+        width: 15px;
+    }
+    .left .text{
+        padding-right: 30px;
+    }
+    .right .text{
+        padding-left: 30px;
+    }
+    .end{
+        font-size: 20px;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    .heading{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .block{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .line{
+        height: 340px;
+        width: 5px;
+    }
+    .shape{
+        height: 15px;
+        width: 15px;
+    }
+    .left .text{
+        padding-right: 20px;
+    }
+    .right .text{
+        padding-left: 20px;
+    }
+    .end{
+        font-size: 15px;
+    }
+}

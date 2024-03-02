@@ -1,0 +1,69 @@
+.Testimonial{
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Testimonial_holder{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin: 6vh 0;
+    padding: 0px 10px;
+    /* height: min-content; */
+}
+
+#img_rating {
+    width: 70%;
+}
+
+.img_home{
+    position: relative;
+}
+
+.testimonial_card{
+    position: relative;    
+    /* flex-basis: 250px; */
+    flex-grow: 0.1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 1.1rem;
+    background: #424242;
+    padding: 1.2rem;
+    border-radius: 25px;
+    max-width: 300px;
+    height: 350px;
+    overflow-y: auto;
+}
+.Name_holder{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.organization{
+    font-weight: bold;
+    color: gray;
+    display: block;
+    margin-top: -10px;
+    /* margin-bottom: -10px; */
+}
+
+
+
+  
+.mySwiper{
+    position: relative;
+    padding-bottom: 20px !important;
+}
+.swiper_pagination_bullets{
+    position: absolute;
+    bottom: -6px !important; 
+    /* bottom: -20px !important; */
+}
+.myswiperslide{
+    display: flex;
+    justify-content: center;
+}

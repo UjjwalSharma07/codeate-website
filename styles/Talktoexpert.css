@@ -1,0 +1,55 @@
+.Talktoexpers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10vh 3vw;
+}
+
+.Talktoexpert-desc h1 {
+  color: rgb(8, 158, 232);
+}
+
+.Talktoexpert-desc {
+  flex-basis: 300px;
+  flex-grow: 0.8;
+}
+
+.Expert-descriptions {
+  font-size: 1.3rem;
+  margin: 3vh 0;
+}
+
+.Talktoexpert-face {
+  flex-basis: 270px;
+  flex-grow: 0.3;
+}
+
+.Talktoexpert-face img {
+  object-fit: cover;
+  max-width: 100%;
+  filter: drop-shadow(10px 10px 10px rgb(40, 40, 40, 0.7));
+}
+
+.Contactus-button {
+  padding: 15px;
+  background: linear-gradient(45deg, #56a8d0, #0cdefe, #089ee8);
+  border-radius: 30px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  animation-name: backg;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+@keyframes backg {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+}

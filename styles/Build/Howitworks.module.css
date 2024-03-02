@@ -1,0 +1,75 @@
+.Howitworks{
+    font-family: 'Poppins', sans-serif;
+    padding: 4vh 0;
+}
+
+.Howitworks_head{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.procede_holder{
+    padding: 0 4rem ;
+    margin: 4vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.proced_step{
+    padding: 1vh 1.2vw;
+    gap: 1rem;
+    margin: 1.2vh 0;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36vw;
+}
+
+.step_number {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 75px;
+    border-radius: 25px 0px 25px 0px;
+    font-weight: 600;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+}
+
+.procede_description {
+    flex-basis: 200px;
+    flex-grow: 1;
+    color: transparent;
+    border-radius: 25px 0px 25px 0px;
+    font-weight: 600;
+    border:solid 2px #00b7d5;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding: 10px;
+    height: auto;
+    /* overflow: hidden; */
+}
+
+
+@media only screen and (max-width: 750px) {
+    .proced_step{
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+    .procede_holder{
+        padding: 0 0.1rem;
+    }
+    .step_number{
+        height: 45px;
+        width: 55px;
+        border-radius: 20px 0px 20px 0px;
+    }
+}

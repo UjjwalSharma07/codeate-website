@@ -1,0 +1,65 @@
+.Projects{
+    background-color: rgb(8, 158, 232);
+    border-radius: 25px;
+    padding: 7vh 2vw;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.Project_description{
+    margin: 4vh 0;
+    text-align: justify;
+}
+
+.Project_name{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+.Project_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    flex-wrap: wrap;
+}
+
+.project_but{
+    padding: 8px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    border: solid 2px white;
+    transition: all 1s ease-in;
+}
+.View{
+    background-color: rgb(8, 158, 232);
+    color: white;
+}
+
+.Download{
+  background-color: white;
+  color: rgb(8, 158, 232);
+}
+
+.Download:hover{
+    background-color: rgb(8, 158, 232);
+    color: white;
+}
+.View:hover{
+    background-color: white;
+    color: rgb(8, 158, 232);
+}
+
+.project_but i{
+    position: relative;
+    transition: all 1.2s ease-in;
+}
+
+.project_but:hover > i{
+    transform: translateX(180%);
+}

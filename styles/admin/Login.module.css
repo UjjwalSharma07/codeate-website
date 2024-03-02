@@ -1,0 +1,48 @@
+.wrapper{
+    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperHeading{
+    color: #18A0D8;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperSubHeading{
+    color: #18A0D8;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+
+.colour{
+    color: #18A0D8;
+}
+
+.loginSection{
+    display: flex;
+    flex-direction: row;
+}
+
+.loginButton{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+}
+
+.btn{
+    background-color: #18A0D8;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px 20px;
+}

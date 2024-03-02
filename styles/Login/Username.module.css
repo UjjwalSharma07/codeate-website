@@ -1,0 +1,69 @@
+.glass{
+    /* background: #18A0D8; */
+    background: #F0F2F0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000C40, #F0F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #4747470b; 
+    /* backdrop-filter: blur(7.1px); */
+    /* border: 1px solid skyblue; */
+    /* border: none */
+    /* @apply border-4 border-gray-50 shrink-0 h-3/4 w-[30%] rounded-3xl py-20 px-7 min-w-max;  */
+}
+
+.profile_img{
+    @apply border-4 border-gray-100 w-[135px] rounded-full shadow-lg cursor-pointer;
+    @apply hover:border-gray-200;
+}
+
+.textbox{
+    @apply border-0 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg;
+    @apply focus:outline-none;
+    background-color: aliceblue
+}
+
+.profile{
+    text-decoration: none;
+}
+
+.btn{
+    @apply w-3/4 py-4 rounded-lg text-white text-xl shadow-sm text-center;
+    font-weight: 500;
+    /* background-color: #18A0D8; */
+    /* border: 2px solid; */
+    transition: 0.5s;
+    
+    
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9db1e0, #416b81, #29b1f5, #2e3034);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ebebec, #9abdc9, #4e6c81, #2e2f31); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.btn:hover{
+    /* background-color: rgb(4, 33, 43); */
+    /* border: none;
+    outline: none; */
+    /* color: white; */
+    /* border: 2px solid #F0F2F0; */
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+/* 
+input[type='file']{
+    display: none;
+} */
+
+.ProfileBg{
+    display: flex;
+    margin-top: 80px;
+    height: 100vh;
+    
+
+    /* background-image: url("https://plus.unsplash.com/premium_photo-1663023612721-e588768ef403?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+}
+
+

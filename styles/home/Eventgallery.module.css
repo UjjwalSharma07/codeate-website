@@ -1,0 +1,46 @@
+.Event_gallery{
+    height: auto;
+    width: 100%;
+    margin: 5vh auto;
+    font-family: 'Poppins';
+    text-align: center;
+    padding: 2vh 2vw;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+}
+.galleryholder{
+    /* overflow-x: scroll; */
+    margin: 2vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-sizing: border-box; */
+}
+.Frame{
+    margin: 20px;
+    height: 280px;
+    width: 280px;
+}
+
+.event_image{
+    height: 250px;
+    width: 250px;
+}
+
+.event_image img{
+    width: 280px;
+    height: 280px;
+}
+
+.mySwiper{
+    position: relative;
+    padding-bottom: 20px !important;
+}
+.swiper-pagination-bullets{
+    position: absolute;
+    bottom: -6px !important; 
+    /* bottom: -20px !important; */
+}
+.myswiperslide{
+    display: flex;
+    justify-content: center;
+}

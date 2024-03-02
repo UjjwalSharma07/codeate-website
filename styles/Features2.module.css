@@ -1,0 +1,104 @@
+.features2 {
+    margin-top: 50px;
+}
+
+.feature2_heading{
+    justify-content: center;
+    font-size: 24px;
+    font-family: "Poppins";
+    text-align: center;
+}
+.build_head{
+    color:  #089ee8;
+}
+
+.features_class {
+    display: flex;
+    justify-content: center;
+}
+.features2  {
+    margin: 1rem;
+    border-radius: 27px;
+    padding: 0.7rem 1rem;
+}
+ .grid_container_home  {
+
+    margin: 1rem;
+    border-radius: 27px;
+    padding: 0.7rem 1rem;
+}
+ .grid_item {
+    background-color: #f5f5f5;
+    margin: 1rem;
+    border-radius: 27px;
+    padding: 0.7rem 1rem;
+}
+.grid_item1 {
+    margin: 1rem;
+    border-radius: 27px;
+    padding: 0.7rem 1rem;
+}
+.flex{
+    display: flex;
+}
+.courses_features_h1 {
+    margin-top: 22px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+}
+
+.courses_features_para {
+    margin-top: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.grid_container_home {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100vw;
+    overflow: hidden;
+}
+@media only screen and (max-width: 790px) {
+  
+    .features2 {
+        margin-top: 0;
+    }
+    .features2 .flex .grid_item:first-child {
+        display: none;
+    }
+    .features2 .flex .grid_item:last-child {
+        display: none;
+    }
+    .features2 .build_head {
+        font-size: 3.2rem;
+    }
+    .grid-container_home {
+        margin-top: 0;
+    }
+    .build_head {
+        font-size: 2.2rem;
+    }
+    .bg_built_nextpro {
+        margin-top: 0;
+    }
+    .explore_courses h1 {
+        font-size: 2.4rem;
+        padding-top: 1rem;
+        line-height: unset;
+    }
+    .explore_courses p {
+        text-align: center;
+        line-height: unset;
+        padding: 1rem 1rem;
+    }
+    .explore_courses {
+        padding-bottom: 2rem;
+    }
+}

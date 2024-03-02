@@ -1,0 +1,55 @@
+.Explorecategories{
+    background-color: black;
+    color: white;
+    /* width: min-content; */
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px 0px 10px 0px;
+}
+
+.Category_body{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.Category_name {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.Category_body i{
+    font-size: 2.1rem;
+}
+
+.Category_image img{
+    width: 100%;
+}
+
+.Category_operations{
+    padding: 0px 0px 10px 10px;
+}
+
+.cat_option{
+    padding: 10px;
+    border-radius: 8px;
+    margin: 4px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.🙂{
+   background: none;
+   color: white;
+   border: solid 2px white;
+}
+.🥶{
+    background: rgb(87, 87, 249);
+    color: black;
+}
+.😁{
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+}

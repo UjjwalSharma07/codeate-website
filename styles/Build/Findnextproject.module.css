@@ -1,0 +1,49 @@
+.Findnextproject{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.Project_template{
+    height: 370px;
+    flex-basis: 240px;
+    flex-grow: 0.2;
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 1.5vw;
+    border-radius: 50px;
+    border: solid 2px #089ee8;
+}
+
+.Project_lvl{
+    font-size: 36px;
+    color: black;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: justify;
+    font-weight: 400;
+}
+
+.Projectbuild_body{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+
+.Project_content{
+    font-size: 18px;
+}
+.Progrct_link{
+    color: #089ee8;
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width:540px) {
+    .Project_template{
+        height: 100%;
+    }
+}

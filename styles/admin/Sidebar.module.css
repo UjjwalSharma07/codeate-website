@@ -1,0 +1,78 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 22vw;
+    background-color: #18A0D8;
+    color: white;
+    overflow: hidden;
+    border-radius:  0 15px 15px 0 ;
+    margin-right: 15x;
+
+}
+
+.menu{
+    
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    overflow: auto;
+    font-size: 20px;
+}
+
+.menuIcon{
+    margin: 10px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 15px;
+    /* border-color: azure; */
+    margin: 5px;
+    /* border: white 1px solid; */
+    
+}
+.item:hover{
+    background-color: white;
+    color: #18A0D8;
+}
+
+.wrapperButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #18A0D8;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 25px;
+    border-color: azure;
+    margin: 5px;
+    /* border: white 1px solid; */
+
+}
+
+.button:hover{
+    background-color: white;
+    color: #18A0D8;
+}

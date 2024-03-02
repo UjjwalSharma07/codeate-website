@@ -1,0 +1,40 @@
+.community{
+    flex: 30%;
+    max-width: 300px;
+    max-height: 300px;
+    
+    text-align: center;
+}
+
+.img{
+    width: 70%;
+}
+
+.title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    
+    
+    color: #333333;
+    text-align: center;
+}
+
+/* Responsive */
+@media  screen and (max-width: 800px) {
+    .title{
+        font-size: 20px;
+    }
+}
+@media  screen and (max-width: 600px) {
+    .title{
+        font-size: 15px;
+    }
+}
+@media  screen and (max-width: 450px) {
+    .title{
+        font-size: 10px;
+    }
+}

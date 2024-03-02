@@ -1,0 +1,40 @@
+.builtbycode8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.builtbycode8_right , .builtbycode8_left{
+    flex-basis: 250px;
+    flex-grow: 0.3;
+}
+
+.builtbycode8_left img{
+    height: auto;
+    width: 85%;
+    margin: auto;
+}
+
+.builtbycode8_right_head{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 44px;
+    font-size: 36px;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 600;
+    list-style: 0.01em;
+}
+
+.builtbycode8_right_body{
+    padding-left: 30px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    line-height: 27px;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    width: 70%;
+}

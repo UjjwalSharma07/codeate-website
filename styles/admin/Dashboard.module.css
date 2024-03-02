@@ -1,0 +1,193 @@
+.wrapperDashboard {
+    display: flex;
+    margin-top: 5.5rem;
+    height: min-content;
+    
+}
+.left{
+    flex: 1;
+}
+.right{
+    flex: 4;
+}
+.DataGrid{
+    height: 590px;
+    margin: 8px 30px;
+}
+.mainScreen {
+    display: flex;
+    flex-direction: column;
+    padding:3vh 3vw;
+    gap: 1.1rem;
+    flex: 1;
+    overflow: auto;
+    font-size: 30px;
+}
+
+.headBar {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.headRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headText {
+    font-weight: 400;
+    font-size: 2rem;
+    align-items: flex-start;
+    color: #444444;
+}
+
+.profileImage {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+
+}
+
+.inputBar {
+    background-color: transparent;
+    padding: 5px;
+    border: none;
+    color: black;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.inputBar:focus {
+    border-bottom: 1px solid #18A0D8;
+}
+
+.searchButton {
+    background: linear-gradient(101.12deg, rgba(5, 65, 220, 0.75) -87.43%, rgba(122, 111, 140, 0.255) 321.85%);
+    border: none;
+    cursor: pointer;
+    outline: invert;
+    color: black;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 0 10px;
+    font-size: 0.97rem;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.97rem;
+    gap:1.5rem;
+    max-width: 75%;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+#student {
+    background: linear-gradient(103.5deg, rgba(5, 207, 220, 0.75) -20.55%, rgba(127, 45, 134, 0.255) 158.17%);
+    border: none;
+    cursor: pointer;
+    outline: invert;
+    color: black;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+#batch {
+    background: linear-gradient(103.22deg, rgba(199, 225, 208, 0.75) -63.14%, rgba(51, 161, 168, 0.75) 279.38%);
+    border: none;
+    cursor: pointer;
+    outline: invert;
+    color: black;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+#project {
+    background: linear-gradient(251.07deg, rgba(5, 65, 220, 0.75) -50.64%, rgba(122, 111, 140, 0.255) 155.14%);
+    border: none;
+    cursor: pointer;
+    outline: invert;
+    color: black;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.chartBox {
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    background-color: rgb(252, 241, 241);
+    margin: 3vh 0;
+    box-shadow: 0 0 12px grey;
+    padding: 10px;
+}
+
+.boxHeading {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+    padding:20px  10px;
+    margin:  0 40px 0 40px;
+
+}
+
+.temp {
+    text-align: center;
+}
+
+.int {
+    color: #2D99FF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.boxTitle {
+    font-weight: 400;
+    align-items: flex-start;
+    font-size: 20px;
+}
+
+.chart{
+    height: 200px;
+    width: 200px;
+    margin-top:-20px;
+    margin: -20px 40px 0 40px;
+    padding-bottom: 20px;
+    background-color: rgb(246, 227, 227);
+    box-shadow: inset 10px 10px 12px white ,inset -10px -10px 12px rgb(188, 183, 183);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2D99FF;
+    font-size: 5rem;
+    font-weight: 600;
+    margin: auto;
+}
+

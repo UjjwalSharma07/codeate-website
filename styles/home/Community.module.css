@@ -1,0 +1,198 @@
+.community_image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.main_sap{
+    display: block;
+}
+
+.community_join_button {
+    display: flex;
+    padding-left: 5.5rem;
+}
+
+.community_join_button button {
+    margin: 0 0
+}
+
+.community .margin_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.commuity .ambassador_img {
+    margin-top: 120px;
+    padding-right: 100px;
+}
+
+.community_h1 {
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+    font-family: 'poppins';
+    font-weight: 700;
+
+    
+    position: relative;
+    right: 12px;
+}
+
+.community_aboutpg {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 5.5rem;
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 1.75;
+    font-family: "Poppins", sans-serif;
+}
+
+.community .Features {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 1.5rem;
+    gap: 1.5rem;
+    margin: 10vh 0;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.Sap_image img{
+    max-width: 100%;
+}
+
+.community .builttop {
+    /* padding: 50px 80px; */
+    display: flex;
+    position: relative;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 45rem;
+}
+
+.community .builttop img {
+    height: auto;
+    width: 38%;
+}
+
+.community .builttop::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    top: -10%;
+    right: 20%;
+    border: solid 50px rgb(0, 119, 181, 0.5);
+}
+
+.community .builttop::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    top: 50%;
+    left: 21%;
+    border: solid 50px rgb(0, 119, 181, 0.5);
+    transform: rotateZ(45deg);
+}
+
+.community .sap {
+    display: flex;
+    
+}
+
+.mobile_sap {
+    /* margin-top: 25rem; */
+    display: none;
+}
+
+.community .sap>div {
+    margin-top: 6.2rem;
+}
+
+@media only screen and (min-width: 791px) {
+    .community .grid_container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .main_sap{
+        display: none;
+    }
+    .community .builttop {
+        /* padding: 50px 80px; */
+        height: 20rem;
+    }
+    .community .builttop img {
+        height: auto;
+        width: 80%;
+    }
+    .community .builttop::before {
+        height: 5rem;
+        width: 5rem;
+        top: 1%;
+        right: 68%;
+        border: solid 1rem rgb(0, 119, 181, 0.5);
+    }
+    .community .builttop::after {
+        height: 5rem;
+        width: 5rem;
+        top: 52%;
+        left: 68%;
+        border: solid 1rem rgb(0, 119, 181, 0.5);
+    }
+    .community_h1 {
+        font-size: 2.1rem;
+        margin-top: 0;
+        padding-left: 1.5rem;
+    }
+    .community_aboutpg {
+        padding: 1vh 1.5rem;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        font-family: "Poppins", sans-serif;
+    }
+    .community .Features {
+        margin-bottom: 2rem;
+    }
+    .community .sap {
+        flex-direction: column;
+    }
+    .community .sap>div {
+        margin-top: 6.2rem;
+    }
+    .community .sap div:last-child {
+        margin-top: 0;
+    }
+    .community .sap {
+        display: none;
+    }
+    .mobile_sap {
+        display: flex;
+    }
+    .mobile_sap {
+        flex-direction: column;
+    }
+    .mobile-sap>div {
+        margin-top: 6.2rem;
+    }
+    .mobile_sap div:last-child {
+        margin-top: 0;
+    }
+   
+}

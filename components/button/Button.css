@@ -1,0 +1,130 @@
+:root {
+    --primary: #1978A5;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 4px;
+    margin: 24px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+    transition: transform 0.7s;
+  }
+  
+  .btn--primary {
+    background-color: var(--primary);
+    color: white;
+    border: 2px solid var(--primary);
+  }
+  
+  .btn--outline {
+    background-color: transparent;
+    color: white;
+    padding: 8px 20px;
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--sub {
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #1978A5;
+    border: none;
+  }
+  
+  .btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+  }
+  
+  .btn--large {
+    padding: 12px 64px;
+    /* padding: 16px 30px; */
+    font-size: 20px;
+    /* filter: drop-shadow(6px 12px 4px rgba(0, 0, 0, 0.5)); */
+  }
+  
+  .btn--mobile {
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: red;
+    /* padding: 14px 20px; */
+    border: 1px solid black;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--wide {
+    padding: 12px 64px;
+    font-size: 20px;
+  }
+  
+  .btn--large:hover,
+  .btn--medium:hover,
+  .btn--mobile:hover {
+    transition: all 0.3s ease-out;
+    background: transparent;
+    color: #242424;
+    box-shadow: 6px 10px rgb(15, 190, 216, 0.6), 15px 16px rgb(15, 189, 216, 0.4), 23px 24px rgb(15, 190, 216, 0.2);
+    /* transform: translateX(-10px); */
+    /* transform: translateY(-10px); */
+    transform: translate(-10px, -10px);
+  }
+  
+  .btn--wide:hover {
+    color: #fff;
+    background-color: #f00946;
+    transition: all 0.2s ease-out;
+  }
+  
+  .btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .blue {
+    background-color: #1978A5;
+    color: black;
+    border: none;
+  }
+  
+  .red {
+    background-color: #f00946;
+    color: #fff;
+    border: none;
+  }
+  
+  .primary {
+    background-color: #242424;
+    color: #fff;
+    border: none;
+  }
+  
+  .primary:hover {
+    background-color: #fff;
+    box-shadow: 3px 5px rgb(15, 190, 216, 0.6), 6px 7px rgb(15, 189, 216, 0.4), 9px 10px rgb(15, 190, 216, 0.2);
+    color: #242424;
+    border: none;
+  }
+  
+  @media only screen and (max-width:780px) {
+    .btn {
+      margin: 10px;
+    }
+  
+    .btn--large {
+      padding: 10px;
+    }
+  }

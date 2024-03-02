@@ -1,0 +1,42 @@
+    .community-events-img {
+        width: 65%;
+        height: 300px;
+        margin-left: 220px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .community .events-div {
+        padding: 30px 0px 60px 0px;
+    }
+    
+    .community .events-div>div {
+        padding: 50px 0px 50px 0px;
+    }
+    
+    .community-events-data {
+        margin: 100px 80px;
+    }
+    
+    @media only screen and (max-width: 790px) {
+        .community-events-img {
+            width: 400px;
+            height: 400px;
+            margin-left: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .community .events-div {
+            padding: 0;
+        }
+        .community .events-div div {
+            padding: 0;
+        }
+        .MuiGrid-item {
+            display: flex;
+            justify-content: center;
+        }
+        .community-events-data {
+            margin: 1rem;
+        }
+    }

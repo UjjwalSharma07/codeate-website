@@ -1,0 +1,150 @@
+.companies{
+    height:fit-content;
+    background: #E5E5E5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+    margin-bottom: 50px;
+}
+
+.title_logo{
+    width: 20%;
+}
+
+.heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 65px;
+    text-transform: uppercase;
+    
+    background: linear-gradient(180deg, #1978A5 0%, #067AE6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    width: 80%;
+}
+
+.card{
+    width: 80%;
+    height:fit-content;
+    background: #FFF8F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 61px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px;
+}
+
+.info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 65px;
+    text-transform: capitalize;
+    
+    color: #333333;
+
+    margin-bottom: 15px;
+    padding: 25px;
+}
+
+.logos{
+    text-align: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_div{
+    flex: 25%;
+    margin: 20px;
+    width: 80%;
+}
+
+.logo{
+    margin: 20px;
+    width: 80%;
+}
+
+.img_div img{
+    margin: 20px;
+    width: 80%;
+}
+
+/*--------------------------- Responsive --------------------------------------*/
+@media  screen and (max-width: 1200px) {
+    .heading{
+        font-size: 55px;
+    }
+    .info{
+        line-height: 45px;
+        font-size: 20px;
+    }
+}
+
+@media  screen and (max-width: 800px) {
+    .heading{
+        font-size: 40px;
+    }
+    .info{
+        line-height: 35px;
+        font-size: 15px;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .heading{
+        font-size: 30px;
+    }
+    .info{
+        line-height: 30px;
+        font-size: 15px;
+    }
+}
+
+@media  screen and (max-width: 450px) {
+    .heading{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .info{
+        line-height: 25px;
+        font-size: 12px;
+    }
+}
+
+@media  screen and (max-width: 350px) {
+    .heading{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .info{
+        line-height: 25px;
+        font-size: 12px;
+    }
+}

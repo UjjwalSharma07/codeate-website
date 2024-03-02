@@ -1,0 +1,125 @@
+.Aboutcode8 {
+    width: 100vw;
+    height: auto;
+    padding: 2rem 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.About_heading {
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 2.3rem 0;
+    width: 70%;
+    text-align: center;
+    color: white;
+}
+
+.About_List {
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.About_heading_2 {
+    font-size: 1.2rem;
+    margin-bottom: 2.3rem;
+    text-align: justify;
+    padding: 2rem;
+    width: 60%;
+    text-align: center;
+    border-bottom: solid 1px rgb(0, 183, 213, 0.7);
+}
+
+.About_list_item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.About_list_item i {
+    margin: 2rem;
+    font-size: 2.2rem;
+    position: relative;
+}
+
+.A1::after,
+.A2::after,
+.A3::after {
+    content: "";
+    height: 40px;
+    width: 40px;
+    top: 20%;
+    left: 20%;
+    z-index: -1;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.A1::after {
+    background-color: rgb(0, 183, 213, 0.4);
+}
+
+.A2::after {
+    background-color: rgba(246, 141, 14, 0.4);
+}
+
+.A3::after {
+    background-color: rgba(206, 213, 0, 0.4);
+}
+
+.Aboutcode_Body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+}
+
+.aboutcode_right,
+.aboutcode_left {
+    flex: 1;
+}
+
+@media only screen and (max-width: 790px) {
+    .Aboutcode8 {
+        padding: 0;
+    }
+    .About_heading {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+        margin: 2rem 0;
+        width: 100%;
+    }
+    .About_list_item i {
+        margin: 0.2rem;
+        font-size: 1.2rem;
+    }
+    .A1::after,
+    .A2::after,
+    .A3::after {
+        content: "";
+        height: 1.3rem;
+        width: 1.3rem;
+        top: 20%;
+        left: 20%;
+        z-index: -1;
+        border-radius: 0.3rem;
+        /* position: absolute; */
+    }
+    .About_list_item span {
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .About_heading_2{
+        width: 100vw;
+    }
+}

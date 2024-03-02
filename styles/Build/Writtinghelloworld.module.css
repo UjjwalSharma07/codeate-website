@@ -1,0 +1,18 @@
+.Writtinghelloworld{
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+    margin: 10vh 0;
+    padding: 4vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Writtinghelloworld_right{
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.Writtinghelloworld img{
+    flex-basis: 300px;
+    flex-grow: 0.2;
+}

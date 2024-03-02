@@ -1,0 +1,62 @@
+.Projectcat {
+  width: 100vw;
+  font-family: "poppins";
+}
+
+.Projectcat-head {
+  background-color: rgb(8, 158, 232);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+  padding: 4vh 2vw;
+}
+
+.Projectheadleft {
+  flex-basis: 300px;
+  flex-grow: 1;
+  padding: 5vh 2.5vw;
+}
+
+.Projectheadleft h1 {
+  font-size: 2.3rem;
+}
+
+.Project-head-face {
+  flex-basis: 270px;
+  flex-grow: 0.2;
+}
+.Project-head-face img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.Projectheadleft-text {
+  margin: 4vh 0;
+  font-size: 1.1rem;
+}
+
+.Search-project {
+  background-color: white;
+  color: black;
+  font-size: 1.4rem;
+  padding: 10px;
+  width: 75%;
+}
+
+.Search-project input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  width: 90%;
+  margin: auto;
+}
+
+.Level {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 5vh 0;
+}

@@ -1,0 +1,103 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-top: 5.5rem;
+    overflow: hidden;
+}
+
+.mainscreen{
+    padding: 2vh 2vw;
+}
+
+.buildHead{
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Choose_holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Choose_heading{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 1vh 0;
+}
+
+.buildSearch input{
+  background-color: white;
+  border: none;
+  padding: 5px;
+  outline: none;
+  border-bottom: solid 1px black;
+}
+
+.buildSearch button{
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.Choose_holder{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.3vh 1.1rem;
+}
+
+.Choose_head{
+    font-weight: 600;
+}
+
+.Choose_box hr{
+    background-color: yellow;
+}
+
+.Choose_box{
+    width: 90%;
+    padding: 1.5vh 2vw;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #444;
+    margin: 3vh 0;
+}
+
+.Bottom_buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh 0 0 0;
+}
+
+.Save{
+    padding: 10px 13px;
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+    margin: 10px 15px;
+    cursor: pointer;
+}
+
+.Next{
+    color: white;
+    padding: 10px 13px;
+    background: rgb(85, 0, 164);
+    border-radius: 10px;
+    margin: 10px 15px;
+    cursor: pointer;
+}
+
+.buildHeadText{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #444;
+}

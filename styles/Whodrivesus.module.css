@@ -1,0 +1,102 @@
+.Whatdrivesus{
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+    margin: 18vh 0;
+}
+.w__card__holder{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 2rem 0;
+    gap:2rem 0;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+.w__card{
+    background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8);
+    flex-basis: 300px;
+    flex-grow: 0.25;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1.4rem 0.7rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.w__card Image{
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: -50px;
+    border: solid 2px #00b7d5;
+}
+
+.w__reason{
+    font-weight: 800;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.w__card__content{
+    font-size: 1rem;
+}
+
+.w__card__head{
+    font-size: 5rem;
+    color: blueviolet;
+    background-color: rgb(244, 244, 250);
+    /* background: linear-gradient(136deg , #56a8d0 ,#00b7d5 , #089ee8); */
+    /* color: transparent; */
+    /* background-clip: text; */
+    /* -webkit-background-clip: text; */
+    position: absolute;
+    top: -60px;
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.w__card__content{
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 750px) {
+    .w__card__holder{
+        flex-direction: column;
+    }
+    .w__card{
+        flex-basis: unset;
+    }
+    .Whatwhy{
+        flex-direction: column;
+    }
+    .not__first__card{
+        margin-top:3rem;
+    }
+    .w__card__content{
+        /* font-size: 1.5rem; */
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+/* .zigzag::after {
+    position: absolute;
+    transform: RotateX(180deg);
+    transform-origin: center;
+    top: -15px;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 15px;
+    background-image: linear-gradient(45deg, #1de0ef 50%, transparent 50%),
+                linear-gradient(-45deg,#1de0ef 50%, transparent 50%);
+    background-size: 30px 30px;
+    content: '';
+  } */
