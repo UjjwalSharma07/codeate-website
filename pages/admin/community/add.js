@@ -19,6 +19,7 @@ import {
   useInData,
 } from "../../../store1/store1";
 import { useRouter } from "next/router";
+import toast from "react-hot-toast";
 
 const MDEditor = dynamic(
   () => import("@uiw/react-md-editor").then((mod) => mod.default),
@@ -137,6 +138,18 @@ const Add = ({}) => {
 
  
   const handleSubmit = (e) => {
+    if (
+      !postData.title ||
+      !postData.message ||
+      !postData.selectedFile ||
+      !postData.registerLink ||
+      !postData.discord ||
+      !file
+
+    ) {
+      toast.error("All fields are mandatory to fill.");
+      return; // Prevent submission
+    }
     e.preventDefault();
     if (currentid) {
       dispatch(updateEvent(currentid, postData));

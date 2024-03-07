@@ -39,7 +39,7 @@ const BuildSee = () => {
       setIsDeleted(false);
     }
     fetchData();
-  }, [isDeleted]);
+  }, [build,isDeleted]);
 
   const user = useSelector(userState);
   const { username } = useAuthStore((state) => state.auth);

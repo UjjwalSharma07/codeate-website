@@ -480,34 +480,45 @@ export const Navbar = () => {
         >
            <Toaster />
           <DialogContent>
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
-              <button
+            <div style={{ display: "flex",alignItems:"center", justifyContent: "space-between" }}>
+              {/* <button
                 onClick={handleClose2}
                 className="text-xl font-bold lg:mr-0 mr-5"
                 style={{ cursor: "pointer" }}
-              >X</button>
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <div
-                  className="lg:font-bold font-medium text-[16px] lg:mr-[1px]"
-                  style={{
-                    fontFamily: "Poppins",
-                    // fontWeight: "bold",
-                    // fontSize: "16px",
-                    color: "#000",
-                    // marginRight: "12px",
-                  }}
-                >
-                  Already have an account?
+              >X</button> */}
+              
+                <img
+                      src="https://freesvg.org/img/close-button.png"
+                      // src="https://github.com/KapadiaShubham/Codeate-media/blob/master/images/x-mark%201.png?raw=true"
+                      onClick={handleClose2}
+                      style={{ cursor: "pointer" }}
+                      alt="cross"
+                      className="h-12 w-12"
+                  />
+
+                <div style={{ display: "flex", alignItems: "center" }}>
+                  <div
+                    className="lg:font-bold font-medium text-[16px] lg:mr-[1px]"
+                    style={{
+                      fontFamily: "Poppins",
+                      // fontWeight: "bold",
+                      // fontSize: "16px",
+                      color: "#000",
+                      // marginRight: "12px",
+                    }}
+                  >
+                    Already have an account?
+                  </div>
+                  <Button
+                    onClick={handleClickOpen}
+                    buttonStyle="btn--primary"
+                    buttonSize="btn--small"
+                  >
+                    Sign In
+                  </Button>
                 </div>
-                <Button
-                  onClick={handleClickOpen}
-                  buttonStyle="btn--primary"
-                  buttonSize="btn--small"
-                >
-                  Sign In
-                </Button>
-              </div>
             </div>
+           
 
             <div style={{ marginTop: "20px" }}>
               <FilledInput
@@ -615,16 +626,24 @@ export const Navbar = () => {
            <Toaster />
           <DialogContent>
             <div
-              style={{ display: "flex", justifyContent: "space-between" }}
+              style={{ display: "flex", alignItems:"center", justifyContent: "space-between" }}
               className="backdrop-blur-lg"
             >
               <span>
-                <button
+                {/* <button
                   onClick={handleClose}
                   className="text-black font-bold hover:text-gray-700"
                 >
                   X
-                </button>
+                </button> */}
+                  <img
+                      src="https://freesvg.org/img/close-button.png"
+                      // src="https://github.com/KapadiaShubham/Codeate-media/blob/master/images/x-mark%201.png?raw=true"
+                      onClick={handleClose}
+                      style={{ cursor: "pointer" }}
+                      alt="cross"
+                      className="h-12 w-12"
+                  />
               </span>
               <span style={{ display: "flex" }}>
                 <div
@@ -764,14 +783,22 @@ export const Navbar = () => {
         >
            <Toaster />
           <DialogContent>
-            <div className="flex justify-between">
+            <div className="flex items-center justify-between">
               <span>
-                <button
+                {/* <button
                   onClick={handleCloseForget}
                   className="text-gray-500 font-bold hover:text-gray-700"
                 >
                   X
-                </button>
+                </button> */}
+                <img
+                      src="https://freesvg.org/img/close-button.png"
+                      // src="https://github.com/KapadiaShubham/Codeate-media/blob/master/images/x-mark%201.png?raw=true"
+                      onClick={handleCloseForget}
+                      style={{ cursor: "pointer" }}
+                      alt="cross"
+                      className="h-12 w-12"
+                  />
               </span>
             </div>
             <div className="flex justify-center items-center">

@@ -8,7 +8,7 @@ const Explorecategories = (props) => {
   return (
     <>
     
-  <div className="items-center h-[500px]">
+  <div className="items-center h-[500px] relative">
       
     <div className="w-60 h-60 blur-3xl bg-blue-500 rounded-full absolute group-hover:bg-blue-600 duration-1000 right-5 bottom-14  opacity-20"></div>
          <div className="w-60 h-60 blur-3xl bg-blue-500 rounded-full absolute group-hover:bg-blue-600 duration-1000 left-1 top-4 opacity-20"></div>
@@ -31,7 +31,7 @@ const Explorecategories = (props) => {
         </Link>
       
       {props.options && (
-        <div className={`${styles.Category_operations} `}>
+        <div className=" w-[350px] absolute bottom-4 left-1/2 transform -translate-x-1/2">
           <Link href={`/projects?type=${props?.topic}`} className="cursor-pointer cat-option">
           <p className="cursor-pointer bg-blue-500 rounded-full text-center p-4">Explore {props? props.topic.slice(0, 20) + "..." : ""}</p>
           </Link>

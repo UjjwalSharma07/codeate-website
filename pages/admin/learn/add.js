@@ -21,6 +21,7 @@ import {
 } from "../../../actions/LearnAction";
 import convertToBase64 from "../../../helper/Convert";
 import { useRouter } from "next/router";
+import toast from "react-hot-toast";
 
 const MDEditor = dynamic(
   () => import("@uiw/react-md-editor").then((mod) => mod.default),
@@ -114,7 +115,18 @@ const Add = ({ InData }) => {
  
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    if (
+      !postData.title ||
+      !postData.message ||
+      !postData.selectedFile ||
+      !postData.registerLink ||
+      !postData.discord ||
+      !file
+
+    ) {
+      toast.error("All fields are mandatory to fill.");
+      return; // Prevent submission
+    }
     if (currentid) {
       dispatch(updateCourse(currentid, postData));
       setUserCourse("edited");

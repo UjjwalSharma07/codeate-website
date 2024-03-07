@@ -13,7 +13,7 @@ const EventMap = ({
   onDiscussClick,
   image
 }) => (
-  <div className="items-center h-[500px]">
+  <div className="items-center h-[500px] relative">
     {/* <Link href={`EventMap/${id}`}>
 
    <motion.div
@@ -73,7 +73,7 @@ const EventMap = ({
          className="bg-clip-padding h-[100%] backdrop-filter px-6 py-4 backdrop-blur-xl bg-opacity-60 border border-white/10 bg-gradient-to-tl to-amber-800/10 group duration-500 rounded-3xl card-animation hover:border-black/80 via-slate-900 from-black/10"
        >
        {/* <Image src={props.imgLink} alt="ima" width={100} height={100}/> */}
-       <Image src={image} alt="img" className=""   layout="fixed"
+       <Image src={image} alt="img" className="" 
         width={400}
         height={230}
         objectFit="contain"
@@ -83,13 +83,13 @@ const EventMap = ({
           <div></div>
          {title}
          </div>
-         <div className="mb-5 flex flex-row p-1 items-center justify-center">{} {description ? description.slice(0, 120) : "" }</div>
+         <div className="mb-5 flex flex-row p-1 items-center justify-center"> {description ? description.slice(0, 120) : "" }</div>
             <Link href={`EventMap/${id}`}>
           <i className="fa-solid fa-arrow-right"></i>
         </Link>
       
       {true && (
-        <div className={`${styles.Category_operations} `}>
+        <div className=" w-[400px] absolute bottom-4 left-1/2 transform -translate-x-1/2">
           <Link href={`EventMap/${id}`} className="cursor-pointer cat-option">
           <p className="cursor-pointer bg-blue-500 rounded-full text-center p-2">Know More</p>
           </Link>

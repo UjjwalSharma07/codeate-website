@@ -364,7 +364,7 @@ const Profile = () => {
                 <h3 className="text-xl font-semibold leading-normal mt-2 mb-2">
                   {myuser?.portfolio  && (<a href={`${myuser?.portfolio}`}>Portfolio: {myuser?.portfolio}</a>)}
                 </h3>
-                <h3 className="text-xl font-semibold leading-normal mt-2 mb-2">
+                <h3 className="box-border relative z-30 inline-flex items-center justify-center mt-5 w-auto px-8 py-3 overflow-hidden font-bold text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none">
                   {myuser?.resume  && (<button onClick={openPdfInNewTab}>Resume</button>) }
                 </h3>
                 {/* <div className="mb-2 text-blueGray-600 mt-2">
@@ -498,15 +498,22 @@ const Profile = () => {
             className="backdrop-blur-lg"
           >
             <span>
-              <button
+              {/* <button
                 onClick={() => { setOpen(false) }}
                 className="text-gray-500 hover:text-gray-700"
               >
                 X
-              </button>
+              </button> */}
+               <img
+                      src="https://freesvg.org/img/close-button.png"
+                      // src="https://github.com/KapadiaShubham/Codeate-media/blob/master/images/x-mark%201.png?raw=true"
+                      onClick={() => { setOpen(false) }}
+                      style={{ cursor: "pointer" }}
+                      alt="cross"
+                      className="h-12 w-12"
+                  />
             </span>
-            <span style={{ display: "flex" }}>
-            </span>
+
           </div>
           <div
             style={{
@@ -585,7 +592,7 @@ const Profile = () => {
             htmlFor="Profile"
             className="font-semibold text-lg mr-3"
             >
-            <p className="border p-4 cursor-pointer ">Choose Profile</p>
+            <p  className="box-border relative z-30 inline-flex items-center justify-center mt-5 w-auto px-8 py-2 overflow-hidden font-bold text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none">Choose Profile</p>
           </label>
             {/* {!imgShow && <p></p>}
             {imgShow &&  <button className=" cursor-pointer text-blue-500" disabled={img ? true : false}  onClick={handleDownloadImage}> {img ? img :"view current profile"}</button>} */}
@@ -642,7 +649,7 @@ const Profile = () => {
                   {prevResumeInfo.name} (Last updated: {prevResumeInfo.lastUpdated})
               </button>
           )}
-          <label className="font-semibold text-lg mr-3">Resume: </label>
+          <label className="font-semibold text-lg font-[20px] mr-3">Resume: </label>
             <input
               id="Resume"
               name="Resume"
@@ -658,7 +665,7 @@ const Profile = () => {
             htmlFor="Resume"
             className="font-semibold text-lg mr-3"
           >
-            <p className="border p-4 cursor-pointer">Upload Resume</p>
+            <p  className="box-border relative z-30 inline-flex items-center justify-center mt-5 w-auto px-8 py-2 overflow-hidden font-bold text-white transition-all duration-300 bg-indigo-600 rounded-md cursor-pointer group ring-offset-2 ring-1 ring-indigo-300 ring-offset-indigo-200 hover:ring-offset-indigo-500 ease focus:outline-none">Upload Resume</p>
           </label>
           {/* {view &&  <button className=" cursor-pointer text-blue-500" disabled={resume ? true : false} onClick={openPdfInNewTab}> {resume ? resume :"view current profile"}</button>} */}
 

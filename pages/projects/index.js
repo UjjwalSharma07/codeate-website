@@ -19,12 +19,10 @@ const Projectpage = () => {
   console.log(type);
   return (
     <div className="bg-black text-white pt-20">
-      <div className="flex flex-row justify-center items-center pt-6">
-        <div></div>
-        <h1 className="text-white font-bold text-4xl justify-center items-center">
-          Explore Projects
-        </h1>
-      </div>
+     <div className="mx-auto my-auto pt-6 flex justify-center items-center">
+      <h1 className="text-white font-bold text-4xl">Explore Projects</h1>
+    </div>
+
       <div className={`${styles.Projectpage}`}>
         <svg
           className="absolute right-0 -z-0 mt-32"

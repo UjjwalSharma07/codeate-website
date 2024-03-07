@@ -44,7 +44,7 @@ const Index = () => {
       setIsDeleted(false);
     }
     fetchData();
-  }, [isDeleted]);
+  }, [indata,isDeleted]);
 
   if (!user?.user?.isAdmin && !username) return null;
   const addeventhandler = () => {
@@ -67,7 +67,7 @@ const Index = () => {
       </div>
       <div className="px-10 ">
         {/* <h1 className="font-semibold text-4xl p-3">Learn</h1> */}
-        <h1 className="font-semibold text-4xl p-3 border mb-5">LEARN COURSES OR EVENTS</h1>
+        <h1 className="font-semibold text-4xl p-3 border mb-5">LEARN COURSES </h1>
         {/* <hr /> */}
         <div>
           {/* <h1 className="text-bold ">EVENT/ COURSES</h1> */}

@@ -64,11 +64,14 @@ const Stats = (props) => {
           </div>
         </motion.div>
         <motion.div whileHover={{ scale: 1.1 }} className={styles.stats_block}>
-          <div className={styles.stats_data}>
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-512/free-infosys-2850045-2370783.png?f=webp&w=256"
-              alt=""
-            />
+          <div className={styles.stats_data} >
+           
+              <img
+                style={{backgroundColor:"white"}}
+                src="https://cdn.iconscout.com/icon/free/png-512/free-infosys-2850045-2370783.png?f=webp&w=256"
+                alt=""
+              />
+          
             <div className={styles.stats_datatype}>Infosys</div>
           </div>
         </motion.div>

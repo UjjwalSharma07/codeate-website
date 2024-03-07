@@ -21,6 +21,7 @@ import {
 } from "../../store1/store1";
 import axios from "axios";
 import { useRouter } from "next/router";
+import toast from "react-hot-toast";
 
 const MDEditor = dynamic(
   () => import("@uiw/react-md-editor").then((mod) => mod.default),
@@ -119,7 +120,17 @@ const Build = () => {
   const post = currentid ? build.find((p) => p._id === currentid) : null;
 
   const handleSubmit = async () => {
-
+    if (
+      !projectData.title ||
+      !projectData.category ||
+      !projectData.level ||
+      !projectData.shortDescription ||
+      !projectData.technologies.length ||
+      !projectData.thumbnail
+    ) {
+      toast.error("All fields are mandatory to fill.");
+      return; // Prevent submission
+    }
     if (currentid) {
       const { data } = await axios.patch(`https://backend.codeate.in/${currentid}` , projectData)
       // const { data } = await axios.patch(
@@ -210,6 +221,7 @@ const Build = () => {
                 className="bg-transparent w-72 border rounded-full px-5 py-2 border-black/50"
                 value={projectData.title}
                 onChange={handleChange}
+                required
               />
             </div>
 
@@ -223,6 +235,7 @@ const Build = () => {
                 className="bg-transparent border border-black/50 rounded-md px-5 py-2 w-56"
                 value={projectData.category}
                 onChange={handleChange}
+                required
               >
                 <option value="">Select Category</option>
                 <option value="WEB_DEVELOPMENT">Web Development</option>
@@ -244,6 +257,7 @@ const Build = () => {
                 className="bg-transparent border border-black/50 rounded-md px-5 py-2 w-44"
                 defaultValue={projectData.level}
                 onChange={handleChange}
+                required
               >
                 {/* https://Codeate-s3.s3.ap-south-1.amazonaws.com/Logo/LOGO+HORIZONTAL+blue+grad.png */}
                 <option value="">Select Level</option>
@@ -274,6 +288,7 @@ const Build = () => {
               className="bg-transparent w-96 border rounded-md px-5 py-3 border-black/50"
               value={projectData.shortDescription}
               onChange={handleChange}
+              required
             />
 
             <form onSubmit={handleFileUpload}>
@@ -298,6 +313,7 @@ const Build = () => {
                     }
                     setFile(e.target.files[0])
                   }}
+                  required
                   type="file"
                   className="block border rounded-full mr-5 text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
                 />
@@ -340,6 +356,7 @@ const Build = () => {
                   onChange={(e) => setTech(e.target.value.trim())}
                   type="text"
                   className="bg-transparent px-3 py-2 border border-black/50 rounded-md"
+                  required
                 />
 
                 <button
@@ -372,6 +389,7 @@ const Build = () => {
                         name={t}
                         id={t}
                         className="hidden"
+                        required
                       />
                     </div>
                   ))}

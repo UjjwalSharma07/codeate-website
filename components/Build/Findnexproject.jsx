@@ -63,7 +63,11 @@ const Card = (props) => {
   const handleClose1 = () => {
     setOpen1(false);
   };
-
+  const handleLoginSubmit =()=>{
+    router.push("/Login");
+    window.scrollTo(0, 0);
+    setOpen1(false);
+  }
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.8, translateY: 10 }}
@@ -205,11 +209,10 @@ const Card = (props) => {
                 buttonStyle="btn--primary sizee"
                 buttonSize="btn--small"
                 stylee="stylee"
-                onClick={() => {
-                  // handleLoginSubmit()
-                  window.scrollTo(0, 0);
-                  setOpen1(false);
-                }}
+                onClick={
+                  handleLoginSubmit
+                 
+                }
               >
                 Login
               </Button>

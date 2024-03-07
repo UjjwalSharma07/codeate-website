@@ -111,7 +111,7 @@ const Index = () => {
       setIsDeleted(false);
     }
     fetchData();
-  }, [isDeleted]);
+  }, [event,isDeleted]);
   if (!user?.user?.isAdmin && !username) return null;
   const handleAdd = (post) => {
     setCurrentI(post._id);
@@ -137,7 +137,7 @@ const Index = () => {
       </div>
       <div className="px-10 ">
         {/* <h1 className="font-semibold text-4xl p-3">Community</h1> */}
-        <h1 className="font-semibold text-4xl p-3 border mb-5">COMMUNITY COURSES OR EVENTS</h1>
+        <h1 className="font-semibold text-4xl p-3 border mb-5">COMMUNITY EVENTS</h1>
         {/* <hr /> */}
         <div>
           {/* <h1 className="text-bold ">EVENT/ COURSES</h1> */}
