@@ -124,8 +124,8 @@ const Profile = () => {
           lastUpdated: new Date().toISOString().split('T')[0]
       });
 
-    }
-    if (selectedFile) {
+    
+    
       const fileReader = new FileReader();
       fileReader.onload = (event) => {
         const uri = event.target.result;
@@ -199,9 +199,10 @@ const Profile = () => {
     const getUser = async() =>{
       try {
         const myuser = await axios.get(`https://backend.codeate.in/users/${user?.user?._id}`)
-        // const myuser = await axios.get(https://backend.codeate.in/users/${user?.user?._id})
+        // const myuser = await axios.get(`https://backend.codeate.in/users/${user?.user?._id}`)
         if(myuser.status === 200){
           setMyuser(myuser.data)
+          setRegisterData(myuser.data);
         }
         console.log("data",myuser.data);
         if(myuser?.data?.resume){
@@ -216,7 +217,7 @@ const Profile = () => {
     }
     
     getUser()
-  }, [registerData.resume,registerData.profile]);
+  }, []);
 
   const handleRegisterChange = async (e) => {
     const fieldName = e.target.name.toLowerCase();
@@ -259,10 +260,13 @@ const Profile = () => {
             setMyuser(myuser.data)
           }
           console.log('my user data is',myuser.data);
+          
         } catch (error) {
           console.log(error);
         }
       }
+
+      
 
     } catch (error) {
       console.log(error);
