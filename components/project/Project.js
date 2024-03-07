@@ -65,23 +65,23 @@ function Project({
       </div>
    
       <div className="flex flex-row justify-center items-center">
-        <Link href="https://discord.com/invite/v4vZBMt9hQ" target="_blank">
-          <button
-            onClick={onDiscussClick}
-            className="px-10 mr-5 py-2 font-medium text-sm text-white bg-gray-500 rounded-full hover:bg-gray-700 focus:outline-none focus:shadow-outline"
-          >
-            Discuss in Discord Community
-          </button>
-        </Link>
+       <a href="https://discord.com/invite/v4vZBMt9hQ" target="_blank" rel="noopener noreferrer">
+        <button
+          onClick={onDiscussClick}
+          className="px-10 mr-5 py-2 font-medium text-sm text-white bg-gray-500 rounded-full hover:bg-gray-700 focus:outline-none focus:shadow-outline"
+        >
+          Discuss in Discord Community
+        </button>
+        </a>
 
-        <Link target="_blank" href={`${type==='Web Development' ? 'https://chat.whatsapp.com/FAsUDFAsDIp3uW6uGitd8n' : type==='Android App Development' ? 'https://chat.whatsapp.com/KP4tvWCNK2OAYHcIR3xoz9' : type==='Blockchain Development' ? 'https://chat.whatsapp.com/IQAPPBodkoF1SZU7oPsd8t' : type==='A.I./M.L.' ? 'https://chat.whatsapp.com/LPTShGfUyVR1RjryrUHLBJ' : type==='Cloud Computing Development' ? 'https://chat.whatsapp.com/FML2eDFLuaJG0bzlB3Hmri': type==='UI/UX Designing' ? 'https://chat.whatsapp.com/Lm8PtGWXG2q9QJE3NRpD2A' : ''}`}>
+        <a target="_blank"  rel="noopener noreferrer" href={`${type==='Web Development' ? 'https://chat.whatsapp.com/FAsUDFAsDIp3uW6uGitd8n' : type==='Android App Development' ? 'https://chat.whatsapp.com/KP4tvWCNK2OAYHcIR3xoz9' : type==='Blockchain Development' ? 'https://chat.whatsapp.com/IQAPPBodkoF1SZU7oPsd8t' : type==='A.I./M.L.' ? 'https://chat.whatsapp.com/LPTShGfUyVR1RjryrUHLBJ' : type==='Cloud Computing Development' ? 'https://chat.whatsapp.com/FML2eDFLuaJG0bzlB3Hmri': type==='UI/UX Designing' ? 'https://chat.whatsapp.com/Lm8PtGWXG2q9QJE3NRpD2A' : ''}`}>
         <button
           onClick={onDiscussClick}
           className="px-10 py-2 font-medium text-sm text-white bg-gray-500 rounded-full hover:bg-gray-700 focus:outline-none focus:shadow-outline"
         >
           Discuss in WhatsApp Community
         </button>
-        </Link>
+        </a>
       </div>
   </div>
 
