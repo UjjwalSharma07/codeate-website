@@ -132,18 +132,9 @@ const Card = (props) => {
                       alignItems: "center",
                     }}
                   >
-                    New to Codeate ?
+                   
                   </div>
-                  <Button
-                    onClick={() => {
-                      window.scrollTo(0, 0);
-                      setOpen1(false);
-                    }}
-                    buttonStyle="btn--primary sizee btn--mobile"
-                    buttonSize="btn--small"
-                  >
-                    Sign Up
-                  </Button>
+                 
                 </span>
               </div>
               <div
