@@ -151,10 +151,10 @@
 
 @media screen and (max-width: 1020px) {
   .nav_item {
-    height: 60px;
+/*     height: 60px; */
     width: 80%;
     
-    margin: 50px;
+    margin: 10px;
     padding: 0px;
     font-size: 20px;
     border-radius: 20px;
