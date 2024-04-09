@@ -33,7 +33,7 @@ function HeroConsultancy({
                     {" "}
                     <Typewriter
                       words={[
-                        "Consultancy Page",    
+                        "Codeate consultancy",    
                       ]}
                       loop={Infinity}
                       cursor
