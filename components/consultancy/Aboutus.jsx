@@ -45,7 +45,7 @@ const Aboutus = (props) => {
               />
             </span>
             <h3 className="mb-1 text-2xl font-medium text-center ml-4  text-white">
-            Learn industry-relevant skills live with mentors from the industry.
+            Build rapid fast solutions with our dynamic team.
             </h3>
           </li>
           <li className="mb-10 ml-6 group">
@@ -58,7 +58,7 @@ const Aboutus = (props) => {
               />
             </span>
             <h3 className="mb-1 text-2xl text-center font-medium ml-4 text-white">
-            Build value-added projects and hone your skills.
+            Ideate with the best minds and shine your idea.
             </h3>
           </li>
           <li className="mb-10 ml-6 group">
@@ -71,7 +71,7 @@ const Aboutus = (props) => {
               />
             </span>
             <h3 className="mb-1 text-2xl font-medium text-center ml-4 text-white">
-            Interact with professionals and growth togather.
+            Test and launch with community of 3k techies and builders.
             </h3>
           </li>
           
