@@ -31,9 +31,9 @@ export const homeObjThree = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  headline: "Consultancy Page",
+  headline: "Codeate Consultancy",
   description:
-    "Learn, Build and conquer like a pro with us.Join the community of thousands of like mind professionals now for free.",
+    "We believe in power of ideas and help you turn them into reality by bridging the gap between idea and execution. We empower early stage entrepreneurs who want to build rapid prrototypes and solve real problems with out in house design thinking methodology and dynamic team.",
   // buttonLabel: "Vision",
   imgStart: "",
   img: "images/illustration_about.png",
