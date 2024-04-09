@@ -40,23 +40,33 @@ const Consultancy = () => {
         <HeroConsultancy  {...homeObjThree} />
         <Aboutus Heading="About Us" SideHeading="ABOUT" />
         <div className="">
-          <h3 className="title text-5xl mb-20 mt-36  font-bold">
+          <h3 className="title title-text mb-20 mt-36  font-bold">
             Why Choose Codeate ?{/* <img src='/images/Codeate.png'></img> */}
           </h3>
         </div>
         <Whychooseus />
         <OurExpertise Heading = "Our Expertise "/>
         <div className="flex flex-col justify-center items-center w-screen">
-          <h3 className="title text-5xl mb-20   font-bold">
+          <h3 className="title title-text mb-20   font-bold">
             Our Portfolio of Success 
           </h3>
-            <Image
+          <img
+              style={{
+                  maxHeight: "100%",
+                  maxWidth: "100%",
+                  height: "auto",
+                  width: "auto",
+              }}
+              src="/images/portfolio.png"
+              alt="Portfolio"
+          />
+{/*             <Image
                 height={"400px"}
                 width={"900px"}
                 src="/images/portfolio.png"
                 alt="Portfolio" 
                 onResize={"cover"}
-            />
+            /> */}
 
           {/* <img className="w-[300px] h-[300px]" src={portfolioImage} alt="Portfolio" /> */}
         </div>
