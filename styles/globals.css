@@ -439,6 +439,10 @@ li {
 .navicons {
   font-size: 0.7rem;
 }
+.title-text{
+  font-size: 3rem;
+    line-height: 1;
+}
 
 @media screen and (max-width: 1020px) {
   .fa-times {
@@ -469,6 +473,10 @@ li {
 
   .Mobi-navbar {
     display: flex;
+  }
+  .title-text{
+    font-size: 1.8rem;
+      line-height: 1;
   }
 }
 
